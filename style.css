@@ -204,7 +204,7 @@ ul li:before {
 }
 
 .footertitle {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .footerimg {
@@ -214,6 +214,7 @@ ul li:before {
 .footercontact {
   font-weight: 400;
   font-size: 15px;
+  margin-bottom: 30px;
 }
 
 .footerdiv2 {
