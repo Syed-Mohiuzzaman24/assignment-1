@@ -1,0 +1,174 @@
+* {
+  font-family: 'Work Sans';
+}
+
+/* Banner Design */
+.banner {
+  position: 100%;
+}
+
+.container {
+  position: relative;
+
+}
+
+.bannertext {
+  position: absolute;
+  top: 150px;
+  left: 900px;
+}
+
+.bannertitle {
+  font-size: 50px;
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+
+
+}
+
+.bannerdes {
+  text-align: right;
+  color: #444343;
+  font-size: 15px;
+  font-weight: 100px;
+
+}
+
+.btn {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 40px;
+  height: 50px;
+  background-color: #FD6E0A;
+  border-radius: 10px;
+  border: 0;
+
+
+}
+
+.btndiv {
+  padding-left: 240px;
+}
+
+/* Failure section */
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+}
+
+.failurediv {
+  display: flex;
+  margin-top: 80px;
+  gap: 80px;
+  padding: 130px;
+}
+
+.failuretext {
+  margin-top: 250px;
+}
+
+.failuretitle {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.failuredes {
+  color: #444343;
+  font-size: 15px;
+  font-weight: 100px;
+  text-align: left;
+  justify-content: left;
+}
+
+.failureul {
+  position: absolute;
+  right: 245px;
+  font-size: 15px;
+  color: #444343;
+  font-weight: 100px;
+
+}
+
+
+/* Plan Design */
+.plancontainer {
+  display: flex;
+  gap: 50px;
+  justify-items: center;
+  padding: 50px 260px;
+}
+
+.plantitle {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+
+}
+.plan{
+  padding: 10px;
+  text-align: center;
+}
+
+.planname {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.planimg{
+  align-items: center;
+}
+
+/* botoom banner design */
+.bbdiv{
+  display: flex;
+  justify-content: center;
+  
+}
+.bbdiv2{
+  position: relative;
+}
+.bbimg{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.bbtext{
+  padding-left: 20px ;
+  font-size: 40px;
+  width: 320px;
+  color: white;
+}
+
+.btn2{
+  color: #FD6E0A;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 40px;
+  height: 50px;
+  background-color:white;
+  border-radius: 5px;
+  border: 0;
+  margin-left: 20px;
+
+}
+
+/* Footer */
+.footersection{
+  display: flex;
+  background-color: black;
+  margin-top: 50px;
+}
+.footerdiv{
+  color: white;
+  padding: 50px;
+}
